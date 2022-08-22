@@ -287,7 +287,7 @@ a.active {
 			height:50px;
 			cursor:pointer;
 			z-index:99;
-            /* 처음 */
+            /* 중요!!!!!!!처음에는 안보이게 해둔다 */
             display: none;
 		}
         /* 버거 라인 컬러 설정하기 */
@@ -335,7 +335,7 @@ a.active {
 		transform: translateY(-5px) rotate(-135deg);
 		}
 
-		/*햄버거 메뉴부분 모양 수정하기*/
+		/*햄버거 메뉴 클릭시 모양 수정하기*/
 		.slide{
 			padding-top:50px;
 			width:50%;/*이 너비에 따라 보이는 부분이 변화함*/
@@ -407,8 +407,7 @@ a.active {
 }
 
 
-/* know about me : 자기소개 */
-
+/*=== know about me=== : 자기소개 */
 #about {
     padding: 100px 0;
 }
@@ -428,8 +427,7 @@ a.active {
     z-index: 1
 }
 
-
-/* my projects: 작업물 정리*/
+/* ===my projects: 작업물 정리===*/
 
 #projects {
     padding: 100px 0;
@@ -464,7 +462,7 @@ a.active {
 .portfolio .categories-grid .categories ul li a:focus {
     text-decoration: none;
 }
-/* 프로젝트=포트폴리오 글자 들어가는 박스컬러 변경 */
+/* ===프로젝트=포트폴리오 글자 들어가는 박스컬러 변경=== */
 .portfolio .categories-grid .categories ul li a.active {
     background-color: #8994cc;
     color: white;
@@ -602,8 +600,7 @@ a.active {
 }
 
 
-/* my experience : 경력 정리*/
-
+/* ===my experience : 경력 정리===*/
 #experience {
     padding: 100px 0;
 }
@@ -725,8 +722,7 @@ a.active {
 }
 
 
-/* skill section
-==================================================*/
+/* ===skill section===*/
 #skill {
     padding: 100px 0;
 }
@@ -749,8 +745,7 @@ a.active {
 }
 
 
-/* contact me
-==================================================*/
+/* ===contact me====*/
 #contact h3{
     color: #743fa3;
 }
@@ -799,8 +794,7 @@ a.active {
 }
 
 
-/* footer
-==================================================*/
+/* ====footer=====*/
 
 #footer{
     padding: 30px 0;
@@ -820,8 +814,7 @@ a.active {
     color: #a26da3;
 }
 
-/* Responsive media queries
-==================================================*/
+/* ====Responsive media queries=====*/
 
 @media (max-width: 991px) {
     .portfolio .categories-grid .categories ul li a {
