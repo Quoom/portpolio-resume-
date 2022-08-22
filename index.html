@@ -46,8 +46,24 @@
             </ul>
         </nav>
     </header>
-    <!-- ./header -->
-
+    <!-- header -->
+    <!-- 햄버거버튼 메뉴 만들기, 참고:코딩 진행중 참고할만한 소스들> 0제이쿼리소스> 햄버거메뉴 부드럽게이동 -->
+    <!-- 처음에는 slide가 처음엔는 안보이게= display: none; 나중에 설정한 너비이하에서는 보이게 display: block;-->
+    <div class="slide-open" id="slide-open">
+    	    <span class="burgur" id="burgur">
+                <span class="top-line"></span>
+                <span class="bot-line"></span>
+             </span>
+     </div><!--slide-open-->
+        <div class="slide" id="slide">
+			<ul>
+				<li><a href="#about">About</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#experience">Experience</a></li>
+				<li><a href="#skill">Skills</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+   		</div><!--slide-->
 
         <!-- home -->
         <div class="section" id="home" data-stellar-background-ratio="0.5">
@@ -353,6 +369,11 @@
     <script src="js/jquery.form.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/jquery.easypiechart.min.js"></script>
+
+
+    <!--====== 햄버거버튼용 js판일 연결하기 ======-->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="js/hamburger.js"></script>
     <!--차트 제이쿼리 소스-->
 
     <!--  main script  -->
