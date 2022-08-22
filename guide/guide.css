@@ -1,0 +1,31 @@
+*{margin:0; padding:0;}
+body{
+    text-align: center;
+    /* 이미지에 안주고 바디에 줍니다. */
+}
+ul{list-style:none; 
+position:fixed;
+bottom:50px;
+right:50px;
+text-align:center;}
+ul li{
+    margin: 10px;
+}
+ul li a{
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    width: 50px;
+}
+.seiva_btn li a{
+    background: #2b825b;
+}
+.waves_btn li a{
+    background: #f26c63;
+}
+a{text-decoration:none; color:#fff;}
+
+img{max-width: 100%;}
+/* 이미지를 가운데로 오게 하는건 뭘까? 
+body에text-align: center를 주는 거였음*/
