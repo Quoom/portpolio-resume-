@@ -29,26 +29,28 @@
 /*
 * { font-family: 'Spoqa Han Sans Neo', 'sans-serif'; }
 */
-@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap');
 
-/* 포트
-==================================================*/
+/* =====포트======*/
 
 h1 {
-    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Nunito', sans-serif;
     font-size: 80px;
     line-height: 70px;
     color: #4d79c0;
 }
 /* 소제목 컬러 */
 h4 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', sans-serif;
     text-transform: capitalize;
     letter-spacing: 2px;
     position: relative;
     color: #743fa3;
     margin-left: 40px;
     font-weight: 700;
+}
+h3{
+    font-family: 'Nunito', sans-serif;
 }
 /* h4소제목 앞에 바 */
 h4:before {
@@ -237,12 +239,13 @@ nav ul {
     padding: 20px;
     margin-bottom: 0;
     -webkit-transition: all .5s;
-    transition: all .5s;
+    transition: all 0.5s;
 }
 
 nav li {
     display: inline-block;
     margin: 10px;
+
 }
 /* 상단 메뉴 컬러 */
 nav li a {
@@ -250,8 +253,9 @@ nav li a {
     letter-spacing: 2px;
     color: #4d79c0;
     font-size: 16px;
-    font-weight: 500;
-    padding: 0 10px;
+    font-weight: 700;
+    padding: 0 10px;    
+    font-family: 'Nunito', sans-serif;
 }
 
 .bg-nav {
@@ -587,7 +591,8 @@ a.active {
 	background-color: #8994cc; 
     border-radius: 20px;
 	color:#fff;
- margin-bottom: 5px;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 5px;
 }
 
 .project_btn:hover{
@@ -835,7 +840,6 @@ a.active {
 
 @media (max-width: 500px) {
     h1 {
-        font-family: 'Edu SA Beginner', cursive;
         font-size: 50px;
         line-height: 50px;
     }
