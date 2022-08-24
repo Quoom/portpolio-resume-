@@ -587,6 +587,7 @@ a.active {
 	background-color: #8994cc; 
     border-radius: 20px;
 	color:#fff;
+ margin-bottom: 5px;
 }
 
 .project_btn:hover{
